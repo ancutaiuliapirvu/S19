@@ -1,0 +1,12 @@
+1. Creeaza un obiect, care sa descrie o masina, avand urmatoarele proprietati: marca, model, an, pret, numar km.
+Fa urmatoarele operatii pe obiect:
+    a) Modifica numarul de km, dandu-le, bineinteles, o valoare mai mica
+    b) Adauga o proprietate noua, description, cu valoarea aferenta(tu alegi ce sa scrii aici).
+    c) Sterge descrierea din obiect.
+
+2. Fa o functie, numita tuneCar, care primeste ca parametru un obiect, reprezentand o masina. Functia returneaza un obiect nou, fara a il modifica pe cel primit ca parametru. 
+Obiectul returnat de functie are de doua ori mai putini km, iar pretul este cu 50% mai mare. La apelul functiei, paseaza ca valoare pentru parametru obiectul creat mai sus.
+HINT: Object.assign pentru un obiect nou (functia returneaza un obiect nou fara a modifica pe cel primit ca parametru)
+
+
+3. Folosind metodele existente pe obiectul Date, afiseaza consola ora curenta, sub urmatorul format: HH:MM:SS (ex: 21:07:34).

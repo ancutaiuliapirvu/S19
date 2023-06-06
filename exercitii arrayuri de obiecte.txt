@@ -1,0 +1,71 @@
+1. Se dau variabilele:
+
+
+var student1 = {
+  name: T G',
+  cnp: '1991212354637',
+  isPayedInInstallments: true
+}
+
+var student2 = {
+  name: P M',
+  cnp: '2981211354497',
+  isPayedInInstallments: false
+}
+
+var student3 = {
+  name: A P',
+  cnp: '1900101778233',
+  isPayedInInstallments: true
+}
+
+
+a) Stocheaza-le intr-un array
+
+b) Afiseaza al 2-lea student din sir
+
+c) Afiseaza numele studentilor care au platit in rate
+
+d) Adauga un student nou in sir
+
+e) Schimba valoarea CNP-ului de la studentul cu nume P.M
+
+
+
+2. Se da urmatorul array:
+var products = [
+  {
+    id: 67,
+    name: 'Firestrata',
+    price: 26,
+    brewery: 'Hop Hooligans'
+  },
+  {
+    id: 212,
+    name: 'Punch the Clock',
+    price: 21,
+    brewery: 'Bereta'
+  },
+  {
+    id: 111,
+    name: 'The Guardian',
+    price: 21,
+    brewery: 'Noah'
+  },
+  {
+    id: 345,
+    name: 'Pudge',
+    price: 30,
+    brewery: 'Hop Hooligans'
+  }
+]
+
+a) Folosind metoda aferenta, returneaza din array-ul de mai sus produsul cu numele "Punch the Clock".
+
+b) Folosind metoda aferenta, returneaza un array care sa contina doar produsele de la "Hop Hooligans".
+
+c) Folosind metoda aferenta, returneaza un nou array, care sa nu contina produsul cu id-ul 212.
+
+d) Calculeaza suma tuturor produselor din array.
+
+e) Fara a modifica array-ul initial, retuneaza un array nou, in care fiecare element are o noua proprietate: "isFavorite", cu valoarea false. HINT: map + Object.assign
